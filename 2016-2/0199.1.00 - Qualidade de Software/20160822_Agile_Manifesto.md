@@ -1,5 +1,9 @@
 # Processos Ágeis de Software
 
+Prof. Pedro Alves de Oliveira
+
+[Slides](http://webdav.sistemas.pucminas.br:8080/webdav/sistemas/sga/20162/1109742_ED%20-%20Processos%20%C3%81geis.doc)
+
 > Qual foi a principal motivação para o surgimento das abordagens ágeis e como elas tem sido vistas no âmbito da Engenharia de Software ao longo do tempo?
 
 A abordagem ágil foi criada por 17 metodologistas dispostos a atacar problemas típicos do desenvolvimento de software.
