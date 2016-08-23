@@ -10,6 +10,8 @@ Uma visão que levou ao desenvolvimento de métodos ágeis e iterativos era reto
 
 > Descreva os princípios do “Manifesto Ágil”, relacionando-os à fábula do porco e da galinha
 
+![ham and eggs](ham_eggs.jpg)
+
 Na fábula, o porco está altamente comprometido com o negócio, com a própria carne. Já a galinha está comprometida apenas em fornecer os ovos.
 
 É fundamental a transparência sobre o seu comprometimento. Os parceiros de time envolvidos tem o direito de saber o seu comprometimento com a situação, até pra decidir o quanto eles querem se comprometer com aquilo também.
