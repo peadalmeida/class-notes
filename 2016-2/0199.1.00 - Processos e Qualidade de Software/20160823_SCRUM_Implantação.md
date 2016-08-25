@@ -6,7 +6,7 @@ Prof. Pedro Alves de Oliveira
 
 #### Como começo a implantar o Scrum em meu projeto?
 
-Um dos criadores do Scrum, o Jeff Sutherland, declarou em seu livro [A Arte de fazer o Dobro do Trabalho na Metade do Tempo](https://www.amazon.com.br/Scrum-fazer-dobro-trabalho-metade-ebook/dp/B00OEI3TKM/ref=sr_1_1?ie=UTF8&qid=1471997863&sr=8-1&keywords=scrum), alguns dos principais pontos essenciais para implementação do método ágil.
+Um dos criadores do Scrum, o Jeff Sutherland, declarou em seu livro [A Arte de fazer o Dobro do Trabalho na Metade do Tempo](https://www.amazon.com.br/Scrum-fazer-dobro-trabalho-metade-ebook/dp/B00OEI3TKM/ref=sr_1_1?ie=UTF8&qid=1471997863&sr=8-1&keywords=scrum), alguns dos principais pontos essenciais para implementação do método ágil:
 
 #### Escolher um Product Owner
 
@@ -159,7 +159,3 @@ Esta é uma reunião de feedback que visa aprimoramento no processo, também con
 O aperfeiçoamento proposto pela Retrospectiva tem efeito positivo tanto na qualidade das entregas, como também no ambiente de trabalho.
 
 É a força para um próximo Sprint ainda melhor.
-
-#### Você precisa ser Ágil: Junte-se a Comunidade
-
-Sei que parece muita coisa para implementar e que você ainda precisa aprender muito sobre o Scrum, mas se você tem interesse em implantar o método ágil em seu projeto, apenas comece e aprenda com a experiência.
