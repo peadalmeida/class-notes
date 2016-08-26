@@ -1,6 +1,8 @@
 # Data Warehouse
 Prof. Sandro Jerônimo de Almeida
 
+[Slides](http://webdav.sistemas.pucminas.br:8080/webdav/sistemas/sga/20162/1112312_DW_Parte1.pdf)
+
 O Data Warehouse se trata da mais importante tecnologia existente no desenvolvimento de soluções de Business Intelligence (BI). Ela é a base para o armazenamento das informações necessárias para a utilização por gestores e analistas na tomada de decisão. O Data Warehouse possui estrutura e características que suportam análise de grande volumes de dados.
 
 ![data-warehouse](https://cloud.githubusercontent.com/assets/1865456/17952629/b901a628-6a42-11e6-971e-c98c67dae1af.jpg)
@@ -22,3 +24,14 @@ O Data Warehouse se trata da mais importante tecnologia existente no desenvolvim
 O fluxo das atividades nessa arquitetura se inicia com a extração dos dados das origens. Esses dados são então armazenados temporariamente na Staging Area, onde são tratados com as regras e padrões predeterminados para então prosseguir para a etapa de carga (Load), em que os dados são carregados no Data Warehouse. Por fim, essas informações são normalmente consultadas através de ferramentas de análises (OLAP) ou ferramentas de mineração (Data Mining) para encontrar, assim, as respostas e insights necessários para a tomada de decisão. 
 
 Portanto, com essa visão geral da arquitetura do Data Warehouse, é possível conceber e entender melhor o funcionamento dessa tecnologia que há anos vem se destacando no mercado como uma das mais importantes estruturas de armazenamento de informações estratégicas. Cabe as empresas perceberem o valor agregado ao Data Warehouse e antecipar a concorrência no que tange a gestão das informações que fornecem competitividade e inteligência no mercado, além de favorecerem o crescimento e alcance de resultados positivos na organização.
+
+### Arquitetura do Data Warehouse
+
+- Para ser útil, o Data Warehouse deve ser capaz de responder a consultas avançadas de maneira rápida, sem deixar de mostrar detalhes relevantes à resposta.
+- Para isso ele deve possuir uma arquitetura que lhe permita coletar, manipular e apresentar os dados de forma eficiente e rápida. 
+- A construção de um Data Warehouse eficiente, exige mais do que  simplesmente descarregar ou copiar os dados dos sistemas atuais para um banco de dados 
+maior. 
+    + Exige uma arquitetura simples e intuitiva. 
+    + O estudo de uma arquitetura permite compreender como o Data Warehouse faz para armazenar, integrar, comunicar, processar e apresentar os dados que os usuários utilizarão em suas decisões.
+    + Um Data Warehouse pode variar sua arquitetura conforme o tipo de assunto abordado, pois as necessidades também variam de empresa para empresa. 
+
