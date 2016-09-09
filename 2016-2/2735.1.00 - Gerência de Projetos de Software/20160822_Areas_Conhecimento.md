@@ -27,6 +27,9 @@ Os processos dessa área são:
     Verificar o Escopo.
     Controlar o Escopo.
 
+**Estrutura Analítica de Projetos (EAP)**, do Inglês, **Work Breakdown Structure (WBS)**, é um processo de subdivisão das entregas e do trabalho do projeto em componentes menores e mais facilmente gerenciáveis. É estruturada em árvore exaustiva, hierárquica (de mais geral para mais específica) orientada às entregas, fases de ciclo de vida ou por sub-projetos que precisam ser feitas para completar um projeto.
+
+O objetivo de uma EAP é identificar elementos terminais (os produtos, serviços e resultados a serem feitos em um projeto). Assim, a EAP serve como base para a maior parte do planejamento de projeto. A ferramenta primária para descrever o escopo do projeto é a estrutura analítica do projeto (EAP).
 
 #### Tempo: 
 Está área descreve os processos relativos ao término do projeto no prazo correto. Os cinco primeiros processos são de planejamento e apenas o último é de controle. Os processos de planejamento definem as atividades que vão para o cronograma, a ordem de precedência das atividades, determinam o tipo e a quantidade de recursos necessários, o tempo necessário para concluir as atividades, associam as atividades às datas do cronograma e por fim verificam se o andamento dos trabalhos está de acordo com o cronograma.
