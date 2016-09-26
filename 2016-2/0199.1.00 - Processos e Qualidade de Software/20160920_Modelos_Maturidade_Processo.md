@@ -2,6 +2,8 @@
 Prof. Pedro Alves de Oliveira
 [Slides](http://webdav.sistemas.pucminas.br:8080/webdav/sistemas/sga/20162/1126775_Modelos%20de%20Maturidade%20e%20Capacidade%20de%20Processo.pdf)
 
+[Improving processes for developing better products and services](http://webdav.sistemas.pucminas.br:8080/webdav/sistemas/sga/20161/1052033_CMMI-DEV-1-3.PDF)
+
 ### Modelos de Capacitação:
 - Um Modelo de Capacitação serve de referência para avaliar a maturidade dos processos de uma organização;
 - Uma organização pode ser aferida ou avaliada comparando se suas práticas reais com aquelas que o modelo de capacitação prescreve;
