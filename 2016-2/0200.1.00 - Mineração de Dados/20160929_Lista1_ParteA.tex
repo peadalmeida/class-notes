@@ -117,7 +117,7 @@ Para cada passageiro:
 \begin{enumerate}
     \item Importar todos os dados fornecidos pela competição
     \item Excluir informações que serão irrelevantes para minha análise, como o número do ticket, tarifa, e o porto de embarque
-    \item Mulheres e crianças primeiro. Verificar a proporção de sobreviventes entre homens e mulheres. Filtrar os dados pelo sexo e a idade de cada passageiro
+    \item "Mulheres e crianças primeiro". Verificar a proporção de sobreviventes entre homens e mulheres. Filtrar os dados pelo sexo e a idade de cada passageiro
     \item Em posse do conhecimento da proporção de sobreviventes entre homens e mulheres, cruzar com os dados dos passageiros com destino (sobreviveu ou não) desconhecido.
 \end{enumerate}
 
@@ -125,13 +125,7 @@ Para cada passageiro:
 \section{Faça uma análise comparativa entre as metodologias KDD e SEMMA. Nessa análise você deverá:}
 \subsection{Descrever cada uma das metodologias e suas etapas}
 \subsubsection{KDD}
-Processo não trivial, de extração de informações implícitas, previamente desconhecidas e potencialmente úteis, a partir dos dados armazenados em um banco de dados
-\singlespacing
-\noindent
-O processo é não trivial já que alguma técnica de busca ou inferência é envolvida, ou seja, não é apenas um processo de computação direta. Os padrões descobertos devem ser válidos com algum grau de certeza, novos (para o sistema e de preferência também para o usuário), potencialmente úteis e compreensíveis.
-\singlespacing
-\noindent
-O processo KDD, como foi apresentado por Fayyad, é o processo de usar métodos de Data Mining para extrair o que é considerado conhecimento em acordo com a especificação de metricas e limiares. São considerados 5 estágios:
+O processo KDD é o processo de usar métodos de Data Mining para extrair o que é considerado conhecimento em acordo com a especificação de metricas e limiares. São considerados 5 estágios:
 \begin{enumerate}
     \item Seleção: Esse estágio consiste em criar uma coleção de dados alvo, ou focar em um sub conjunto de variáveis ou dados simples, nos quais a descoberta e feita.
     \item Pré Processamento: Esse estágio consiste na limpeza dos dados alvo e o seu pre processamento visando obter dados consistentes.
@@ -140,25 +134,24 @@ O processo KDD, como foi apresentado por Fayyad, é o processo de usar métodos 
     \item Interpretação/Avaliação: Esse estágio consiste na interpretação e avaliação dos padrões mineirados.
 \end{enumerate}
 \noindent
-O processo KDD é interativo e iterativo, envolvendo vários passos com várias decisões sendo feitas pelo usuário. Adicionalmente, o processo KDD deve proceder pelo desenvolvimento do conhecimento do dominio da aplicação, o conhecimento relevante pŕevio e os objetivos do usuário final. Também deve ser continuada pela consolidação de conhecimento encorporando esse conhecimento no sistema.
+O processo KDD é interativo e iterativo, envolvendo vários passos com várias decisões sendo feitas pelo usuário. Adicionalmente, o processo KDD deve proceder pelo desenvolvimento do conhecimento do dominio da aplicação, o conhecimento relevante pŕevio e os objetivos do usuário final.
 
 \subsubsection{SEMMA}
-SEMMA desenvolvido pela SAS Institute, refere-se ao processo de conduzir um projeto de Data Mining. A SAS Institute considera um ciclo com 5 estágios para o processo:
+A metodologia SEMMA, foi desenvolvida pela SAS, que define Data Mining como o processo de extrair informação valiosa e relações complexas de um grande volume de dados, dividiram o processo de Data Mining em cinco fases que compõe o acrónimo SEMMA:
 \begin{enumerate}
-    \item Amostragem: Esse estágio consiste na amostragem dos dados extraindo uma porção de uma grande coleção de dados, suficientemente grande para conter a informação significante, pequeno o suficiente para manipular rapidamente. Esse estágio é apontado como sendo opcional.
-    \item Explorar: Esse estágio consiste na exploração dos dados, buscando por tendencias não antecipadas e anomalias, de forma a ganhar entendimento e ideias.
-    \item Modificar: Esse estágio consiste na modificação dos dados, criando, selecionando e transformando as variáveis para focar no processso de seleção do modelo.
-    \item Modelo: Esse estágio consiste na modelagem dos dados permitindo o software a buscar automaticamente por uma combinação de dados que fielmente prevê um resultado.
+    \item Amostragem: Recolha de uma amostra significativamente grande para ser representativa da população e pequena o suficiente para ser manipulada rapidamente.
+    \item Explorar: Exploração estatística e gráfica dos dados para se ter ideia à partida de algum padrão, tendências ou anomalias nos dados.
+    \item Modificar: Modificação dos dados criando, seleccionando e transformando variáveis para obter nova informação. Identificação de pontos extremos, tratamento de valores omissos e segmentação da base de dados.
+    \item Modelo: Ajustamento de modelos predicativos, modelação das variáveis objectivo usando algoritmos baseados em árvores de decisão, regressões, redes neuronais ou modelos definidos pelos analistas.
     \item Avaliar: Esse estágio consiste na avaliação dos dados, avaliando a usabilidade e confiabilidade dos resultados do processod e Data Mining e a estimativa de quão bem é executado.
 \end{enumerate}
 \noindent
 Embora o processo SEMMA seja independente da ferramente de Data Mining escolhida, o SEMMA e relacionado ao software SAS Enterprise Minere pretende guiar o usuário na implementação de aplicações de Data Mining. SEMMA oferece uma forma fácil de entender processo, permitindo o desenvolvimento e a manutenção de forma organizada e adequada em projetos de Data Mining.
-\newpage
 \subsection{Apresentar as principais vantagens de uma em relação a outra}
 Comparando os estágios do KDD com os do SEMMA, em primeira instância, afirmamos que são equivalentes:
 \begin{itemize}
     \item Sample (Amostra) pode ser identificada com Selection (Seleção)
-    Explore (Explorar) pode ser identificado com Pre processing (Pré processamento)
+    Explore (Explorar) pode ser identificado com Pre Processing (Pré Processamento)
     \item Modify (Modificar) pode ser identificado com Transformation (Transformação)
     \item Model (Modelo) pode ser identificado com Data Mining (Mineração de Dados)
     \item Assess (Avaliação) pode ser identificado com Interpretation/Evaluation (Interpretação/Avaliação)
@@ -166,25 +159,9 @@ Comparando os estágios do KDD com os do SEMMA, em primeira instância, afirmamo
 \noindent
 Examinando como um todo, podemos afirmar que os cinco estágios do processo SEMMA podem ser vistos como uma implementação pratica dos cinco estágios do processo KDD, desde que o SEMMA é diretamente ligado ao software SAS Enterprise Miner.
 
-\begin{table}[h]
-\centering
-\caption{KDD x SEMMA}
-\label{kdd-vs-semma}
-\begin{tabular}{|l|l|}
-\hline
-KDD                       & SEMMA      \\ \hline
-Selection                 & Sample     \\ \hline
-Pre Processing            & Explore    \\ \hline
-Transformation            & Modify     \\ \hline
-Data Mining               & Model      \\ \hline
-Interpretation/Evaluation & Assessment \\ \hline
-\end{tabular}
-\end{table}
-
 \section{Resolva pelo menos 3 questões entre os exercícios propostos (1 a 5) no final capítulo 8 do livro}
 \subsection{Questão 1:}
 \includegraphics[scale=0.7]{1.png}
-\newpage
 \subsection{Questão 2:}
 \includegraphics[scale=0.7]{2.png}
 \subsection{Questão 4:}
